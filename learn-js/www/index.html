@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Learn JS</title>
+        <!--Defer tag will run the code later as opposed to blocking initial loading of the page-->
+        <script defer type="module" src="scripts/color-home.js"></script>
+        <script defer type="module" src="scripts/app.js"></script>
+    </head>
+    <body>
+        <!--Custom element first word, dash second word - ensures that a custom element will never conflict with a future html element-->
+        <h1>Learn JS</h1>
+        <!--Custom elements must be prefaced with 'data-'-->
+        <color-home data-header-text="My Color Tool"></color-home>
+    </body>
+</html>
